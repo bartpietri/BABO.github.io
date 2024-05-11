@@ -7,7 +7,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // Validation des identifiants - À remplacer par une validation côté serveur dans une application réelle
     if (username === "admin" && password === "admin") {
         // Redirection vers la page de discussion
-        window.location.href = "../accueil/accueil.html";
+        window.location.href = "/accueil/accueil.html";
     } else {
         alert("Nom d'utilisateur ou mot de passe incorrect !");
     }
